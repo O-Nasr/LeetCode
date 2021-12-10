@@ -7,20 +7,21 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            int[] nums = { 1, 2, 3, 4 };
+            int[] nums = { -1, 1, 0, -3, 3 };
             //var x = Two_Sum.TwoSum(nums, 9);
+            //var x = Contains_Duplicate.ContainsDuplicate(nums);
 
-            var x = Contains_Duplicate.ContainsDuplicate(nums);
-            Console.WriteLine(x);
+            var x = Product_Except_Self.ProductExceptSelf(nums);
+            //Console.WriteLine(x);
 
-            //DisplayCollection(x);
+            DisplayCollection(x);
         }
 
         public static void DisplayCollection(int[] arr)
         {
             foreach(int i in arr)
             {
-                Console.WriteLine(i);
+                Console.Write(i + " ");
             }
         }
     }
