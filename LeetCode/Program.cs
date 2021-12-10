@@ -7,14 +7,14 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            int[] nums = { -1, 1, 0, -3, 3 };
+            int[] nums = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
             //var x = Two_Sum.TwoSum(nums, 9);
             //var x = Contains_Duplicate.ContainsDuplicate(nums);
 
-            var x = Product_Except_Self.ProductExceptSelf(nums);
-            //Console.WriteLine(x);
+            var x = Maximum_Subarray.MaxSubArray(nums);
+            Console.WriteLine(x);
 
-            DisplayCollection(x);
+            //DisplayCollection(x);
         }
 
         public static void DisplayCollection(int[] arr)
