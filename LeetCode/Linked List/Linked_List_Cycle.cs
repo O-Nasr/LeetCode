@@ -1,7 +1,7 @@
 ﻿namespace LeetCode.Linked_List
 {
     //Definition for singly-linked list.
-    public class ListNode
+   /* public class ListNode
     {
         public int val;
         public ListNode next;
@@ -10,7 +10,7 @@
             this.val = val;
             this.next = next;
         }
-    }
+    }*/
     public class Linked_List_Cycle
     {
         //https://leetcode.com/problems/linked-list-cycle/
