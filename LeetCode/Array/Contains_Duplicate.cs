@@ -4,6 +4,7 @@ using System.Text;
 
 namespace LeetCode.Array
 {
+    //https://leetcode.com/problems/contains-duplicate/
     public class Contains_Duplicate
     {
         public static bool ContainsDuplicate(int[] nums)

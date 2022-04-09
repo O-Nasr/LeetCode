@@ -8,7 +8,9 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            int numberOfNodes = Convert.ToInt32(Console.ReadLine());
+            Longest_Consecutive_Sequence.LongestConsecutive(new int[] { 0, 3, 7, 2, 5, 8, 4, 6, 0, 1 });
+
+            /*int numberOfNodes = Convert.ToInt32(Console.ReadLine());
             ListNode head = null;
             for (int i = 0; i < numberOfNodes; i++)
             {
@@ -17,7 +19,7 @@ namespace LeetCode
             }
             Console.WriteLine("------------------------------------");
             int n = Convert.ToInt32(Console.ReadLine());
-            Remove_Nth_Node_From_End_of_List.RemoveNthFromEnd(head, n);
+            Remove_Nth_Node_From_End_of_List.RemoveNthFromEnd(head, n);*/
         }
 
         public static void DisplayCollection(int[] arr)
